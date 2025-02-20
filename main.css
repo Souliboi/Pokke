@@ -30,15 +30,20 @@ body {
   flex-wrap: wrap;
 }
 
-.gen {
+button {
+  border-radius: 10px;
   margin: 10px;
   font-size: 1em;
+  height: 40px;
+  width: 100px;
+  box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.3);
 }
 
 .main-info {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin: 1em;
 }
 
 .recommended {
@@ -132,7 +137,9 @@ hr {
   color: white;
 }
 
-.popup-body {padding: 2px 16px;}
+.popup-body {
+  padding: 2px 16px;
+}
 
 @keyframes animatetop {
   from {top:-300px; opacity:0}
